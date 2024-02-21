@@ -1,0 +1,8 @@
+[build]
+    functions="functions"
+
+[functions]
+included_files = ["dist/services/email.hbs"]
+
+[build.environment]
+  TZ = 'Pacific/Auckland'
